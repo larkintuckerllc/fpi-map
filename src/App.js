@@ -32,5 +32,3 @@ function App() {
 }
 
 export default App;
-
-//       window.fpiIndicators = [{"id":11,"link":"http:\/\/localhost:8000\/fpi_indicator\/11\/","name":"Debug Name 3","image":"http:\/\/localhost:3000\/1.jpg","latitude":"0","longitude":"-7","ecological":"3","economic":"3","community":"3"}];
