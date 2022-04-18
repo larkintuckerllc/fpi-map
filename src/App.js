@@ -1,4 +1,5 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import Indicator from './Indicator';
 import "./App.css";
 
 function App() {
@@ -10,7 +11,14 @@ function App() {
       />
       <Marker position={[51.505, -0.09]}>
         <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
+          <Indicator
+            community={2}
+            ecological={3}
+            economic={4}
+            image="http://localhost:3000/1.jpeg"
+            link="https://www.google.com"
+            name="testing one two three, testing"
+          />
         </Popup>
       </Marker>
     </MapContainer>

@@ -1,0 +1,37 @@
+.root {
+    width: 300px;
+ }
+ .title {
+   font-weight: bold;
+   font-size: 16px;
+ }
+ .image {
+   background-size: cover;
+   height: 200px;
+   margin-top: 12px;
+   width: 300px;
+ }
+ .indicator {
+    display: flex;
+    margin-top: 12px;
+  }
+ 
+ .indicator__title {
+   flex: 0 0 100px;
+   font-weight: bold;
+ }
+ 
+ .indicator__value {
+   position: relative;
+   flex: 1 0 0px;
+   margin-left: 10px;
+   background-color: rgb(230, 230, 230);
+ }
+ 
+ .indicator__value__scale {
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   height: 100%;
+ }
+ 
