@@ -6,7 +6,7 @@ import styles from './App.module.css';
 function App() {
   return (
     <div className={styles.root}>
-      <div className={styles.root__title}>FPI Listing</div>
+      <div className={styles.root__title}>FPI Map</div>
       <MapContainer center={[0, 0]} zoom={3} className={styles.root__map}>
         <TileLayer
           attribution='Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
